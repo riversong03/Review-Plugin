@@ -1,0 +1,156 @@
+/* CSS to display SL Reviews */
+
+a.pageLoader-restart {
+	width:176px;
+	height:50px;
+	background-color:#c32328;
+	display:block;
+	margin:1% auto;
+	color:#ffffff;
+	font-family:"Bebas Neue Regular", Arial, sans-serif;
+	font-size:2.0rem;
+	text-align:center;
+	line-height:50px;
+}
+
+.customerReviews {
+	width:70%;
+	margin:1% auto;
+
+}
+
+.customerReviews .page {
+	display:none;
+}
+
+
+.customerReviews .page.active {
+	display:block;
+}
+
+.customerReviews.loop .page.active {
+	display:none;
+}
+
+.quoteWrapper {
+	width:90%;
+	margin:0% auto;
+}
+
+.quoteWrapper .content {
+	width:70%;
+	padding:4%;
+	float:left;
+}
+
+.quoteWrapper .content p {
+	float:left;
+	width:90%;
+	padding:1vw;
+	margin:0;
+}
+
+.quoteWrapper .content p,
+.quoteWrapper .content p.blue {
+	background-color:#60c4dc;
+}
+
+.quoteWrapper .content p.red {
+	background-color:#cc3333;
+	color:#ffffff;
+}
+
+.quoteWrapper .content p.white {
+	background-color:#ffffff;
+}
+
+.quoteWrapper .content p.gray {
+	background-color:#cccccc;
+}
+
+.quoteWrapper .imgWrapper {
+	float:left;
+	width:30%;
+}
+
+.quoteWrapper .imgWrapper .reviewerImg {
+	width:100px;
+}
+
+.quoteWrapper .imgWrapper h5,
+.quoteWrapper .imgWrapper p {
+	width:80%;
+	margin:1% 0%;
+}
+
+.quoteWrapper .imgWrapper .reviewerImg img {
+	display:block;
+	max-width:100%;
+	margin-top:20px;
+}
+
+.quoteWrapper .pointWrapper {
+	display:block;
+	float:left;
+	height:100%;;
+	margin:0;
+	padding:0;
+}
+
+.pointWrapper .point {
+	width:0;
+	height:0;
+	margin-top:60%;
+	border-style: solid;
+	border-width: 14px 22px 14px 0px;
+	border-color: transparent #60c4dc transparent transparent;
+}
+
+.pointWrapper .point.blue {
+	border-color: transparent #60c4dc transparent transparent;
+}
+
+.pointWrapper .point.white {
+	border-color: transparent #ffffff transparent transparent;
+}
+
+.pointWrapper .point.red {
+	border-color: transparent #cc3333 transparent transparent;
+}
+
+.pointWrapper .point.gray {
+	border-color: transparent #cccccc transparent transparent;
+}
+
+.pointWrapper .point.right {
+	border-width: 14px 0px 14px 22px;
+}
+
+.pointWrapper .point.blue.right {
+	border-color: transparent transparent  transparent #60c4dc;
+}
+
+.pointWrapper .point.white.right {
+	border-color: transparent transparent transparent #ffffff;
+}
+
+.pointWrapper .point.red.right {
+	border-color: transparent transparent transparent #cc3333;
+}
+
+.pointWrapper .point.gray.right {
+	border-color: transparent transparent transparent #cccccc;
+}
+
+.quoteWrapper img.companyLogo {
+	width:100px;
+}
+
+img.companyLogo.right {
+	float: right;
+	margin: 4% 20% 4% 0%;
+}
+
+img.companyLogo.left {
+	margin: 4% 0% 4% 20%;
+}
